@@ -12,7 +12,13 @@
         1.) lists3bucket.sh - Create an ouput folder were all output files will stored.
         2.) s3encrypt.sh - Generate a result for all listed S3 buckets and shows which is encryted and which are not. 
 ```
-# lists3bucket.sh content
+
+# Captured evidence
+
+
+* [Terminal](https://daduber-storage.s3-ap-southeast-1.amazonaws.com/GIFs/s3buckets.gif)
+
+## lists3bucket.sh content
 ```
 #!/bin/sh
 
@@ -72,3 +78,18 @@ chmod 755 ~/exec.sh                        #
 #==========================================#
 
 ```     
+
+## s3encrypt.sh
+```
+#!/usr/bin/env bash 
+
+source ~/exec.sh 
+
+aws s3api get-bucket-encryption --bucket "$var1"
+aws s3api get-bucket-encryption --bucket "$var2"
+aws s3api get-bucket-encryption --bucket "$var3"
+aws s3api get-bucket-encryption --bucket "$var4"
+aws s3api get-bucket-encryption --bucket "$var5"
+aws s3api get-bucket-encryption --bucket "$var6"
+```
+
