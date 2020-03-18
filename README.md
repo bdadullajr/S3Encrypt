@@ -8,5 +8,6 @@
 ```
 ## List of Script
 
-* 
+*lists3bucket.sh - Create an ouput folder were all output files will stored.
+*s3encrypt.sh - Generate a result for all listed S3 buckets and shows which is encryted and which are not. 
 
