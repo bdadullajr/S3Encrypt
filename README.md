@@ -16,7 +16,7 @@
 # Captured evidence
 
 
-* [Terminal](https://daduber-storage.s3-ap-southeast-1.amazonaws.com/GIFs/s3buckets.gif)
+* [Terminal](https://daduber-storage.s3-ap-southeast-1.amazonaws.com/GIFs/s3buckets.gif) <==== CLICK HERE TO VIEW!
 
 ## lists3bucket.sh content
 ```
