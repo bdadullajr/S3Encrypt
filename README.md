@@ -9,7 +9,7 @@
 ```
 # Available Scripts 
 ```
-        1.) lists3bucket.sh - Create an ouput folder were all output files will stored.
+        1.) lists3bucket.sh - Create an ouput folder were all output files will  be stored. The sources I need to process in preparation for generation the actuall results.
         2.) s3encrypt.sh - Generate a result for all listed S3 buckets and shows which is encryted and which are not. 
 ```
 
