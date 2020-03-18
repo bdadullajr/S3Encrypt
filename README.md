@@ -6,8 +6,10 @@
 - AWS CLI 
 
 ```
-## List of Script
+## Available Scripts 
+```
+        1.) lists3bucket.sh - Create an ouput folder were all output files will stored.
+        2.) s3encrypt.sh - Generate a result for all listed S3 buckets and shows which is encryted and which are not. 
+```
 
-*lists3bucket.sh - Create an ouput folder were all output files will stored.
-*s3encrypt.sh - Generate a result for all listed S3 buckets and shows which is encryted and which are not. 
 
